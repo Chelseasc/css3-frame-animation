@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>css3逐帧动画</title>
+    <style>
+        @keyframes run{
+            0%{
+                background-position: 0 0;
+            }
+            3.125%{
+                background-position: -270px 0;
+            }
+            6.25%{
+                background-position: -540px 0 ;
+            }
+            9.375%{
+                background-position: -810px 0 ;
+            }
+            12.5%{
+                background-position: -1080px 0 ;
+            }
+            15.625%{
+                background-position: -1350px 0 ;
+            }
+            18.75%{
+                background-position: -1620px 0 ;
+            }
+            21.875%{
+                background-position: -1890px 0 ;
+            }
+            25%{
+                background-position: -2160px 0 ;
+            }
+            28.125%{
+                background-position: -2430px 0 ;
+            }
+            31.25%{
+                background-position: -2700px 0 ;
+            }
+            34.375%{
+                background-position: -2970px 0 ;
+            }
+            37.5%{
+                background-position: -3240px 0 ;
+            }
+            40.625%{
+                background-position: -3510px 0 ;
+            }
+            43.75%{
+                background-position: -3780px 0 ;
+            }
+            46.875%{
+                background-position: -4050px 0 ;
+            }
+            50%{
+                background-position: -4320px 0 ;
+            }
+            53.125%{
+                background-position: -4590px 0 ;
+            }
+            56.25%{
+                background-position: -4860px 0 ;
+            }
+            59.375%{
+                background-position: -5130px 0 ;
+            }
+            62.5%{
+                background-position: -5400px 0 ;
+            }
+            65.625%{
+                background-position: -5670px 0 ;
+            }
+            68.75%{
+                background-position: -5940px 0 ;
+            }
+            71.875%{
+                background-position: -6210px 0 ;
+            }
+            75%{
+                background-position: -6480px 0 ;
+            }
+            78.125%{
+                background-position: -6750px 0 ;
+            }
+            81.25%{
+                background-position: -7020px 0 ;
+            }
+            84.375%{
+                background-position: -7290px 0 ;
+            }
+            87.5%{
+                background-position: -7560 0 ;
+            }
+            90.625%{
+                background-position: -7830px 0 ;
+            }
+            93.75%{
+                background-position: -8100px 0 ;
+            }
+            96.875%{
+                background-position: -8370px 0 ;
+            }
+            100%{
+                background-position: -8640px 0 ;
+            }
+        }
+        @-webkit-keyframes run{
+            0%{
+                background-position: 0 0;
+            }
+            3.125%{
+                background-position: -270px 0;
+            }
+            6.25%{
+                background-position: -540px 0 ;
+            }
+            9.375%{
+                background-position: -810px 0 ;
+            }
+            12.5%{
+                background-position: -1080px 0 ;
+            }
+            15.625%{
+                background-position: -1350px 0 ;
+            }
+            18.75%{
+                background-position: -1620px 0 ;
+            }
+            21.875%{
+                background-position: -1890px 0 ;
+            }
+            25%{
+                background-position: -2160px 0 ;
+            }
+            28.125%{
+                background-position: -2430px 0 ;
+            }
+            31.25%{
+                background-position: -2700px 0 ;
+            }
+            34.375%{
+                background-position: -2970px 0 ;
+            }
+            37.5%{
+                background-position: -3240px 0 ;
+            }
+            40.625%{
+                background-position: -3510px 0 ;
+            }
+            43.75%{
+                background-position: -3780px 0 ;
+            }
+            46.875%{
+                background-position: -4050px 0 ;
+            }
+            50%{
+                background-position: -4320px 0 ;
+            }
+            53.125%{
+                background-position: -4590px 0 ;
+            }
+            56.25%{
+                background-position: -4860px 0 ;
+            }
+            59.375%{
+                background-position: -5130px 0 ;
+            }
+            62.5%{
+                background-position: -5400px 0 ;
+            }
+            65.625%{
+                background-position: -5670px 0 ;
+            }
+            68.75%{
+                background-position: -5940px 0 ;
+            }
+            71.875%{
+                background-position: -6210px 0 ;
+            }
+            75%{
+                background-position: -6480px 0 ;
+            }
+            78.125%{
+                background-position: -6750px 0 ;
+            }
+            81.25%{
+                background-position: -7020px 0 ;
+            }
+            84.375%{
+                background-position: -7290px 0 ;
+            }
+            87.5%{
+                background-position: -7560 0 ;
+            }
+            90.625%{
+                background-position: -7830px 0 ;
+            }
+            93.75%{
+                background-position: -8100px 0 ;
+            }
+            96.875%{
+                background-position: -8370px 0 ;
+            }
+            100%{
+                background-position: -8640px 0 ;
+            }
+        }
+        div{
+            width:270px;
+            height:140px;
+            background: url('./images/lanternFestival.png') ;
+            animation:run 2s steps(1, start) infinite;
+            -webkit-animation:run 2s steps(1, start) infinite;
+        }
+    </style>
+</head>
+<body>
+<div></div>
+</body>
